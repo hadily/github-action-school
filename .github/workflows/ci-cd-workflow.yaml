@@ -6,7 +6,7 @@ on:
       skip-push:
         type: boolean
         description: skip push
-        default: false
+        default: true
 
 jobs:
   lint-and-test:
